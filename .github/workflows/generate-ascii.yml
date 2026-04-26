@@ -1,7 +1,9 @@
 name: Generate ASCII Artwork
 
 on: 
-    push
+  schedule:
+    - cron: "*/5 * * * *"
+    #push
 
 
 jobs:
